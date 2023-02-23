@@ -1,0 +1,77 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video-destaque prop"
+        "video-destaque sugeridos";
+
+        grid-template-columns: 1fr 270px;
+        grid-template-rows: 56px 1fr;
+        gap: 20px;
+        padding: 35px;
+        background-color: #F7F7F7;
+}
+.video-destaque{
+    grid-area: video-destaque;
+
+}
+
+.video-destaque img{
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.video-destaque .titulo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    margin-bottom: 7px;
+}
+.prop{
+    grid-area: prop;
+
+}
+
+.sugeridos{
+    grid-area: sugeridos;
+}
+
+.sugeridos .video-sugeridos{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.views {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    margin-bottom: 7px;
+}
+
+.sugeridos .video-sugeridos .titulo-pekeno {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    margin-bottom: 5px;
+}
+
+.info {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 12.89px;
+    margin-bottom: 5px;
+}
+
+.desc {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    width: 538px;
+    height: 79px;
+}
